@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script>
+    $(document).ready(function () {
+        $("#btn").mouseover(function () {
+            $("#btn").css("background-color", "yellow");
+        });
+        $("#btn").mouseout(function () {
+            $("#btn").css("background-color", "green");
+        });
+    });
+</script>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <input type="button" value="Create" style="background-color: green; padding: 15px;" id="btn"  />
+        
+    </div>
+</div>
